@@ -94,7 +94,7 @@ mdns:
 #  version: 3
 
 network:
-  enable_ipv6: ${ipv6_enable}
+  #enable_ipv6: ${ipv6_enable}
 
 wifi:
   # This spawns an AP with the device name and mac address with no password.
@@ -106,8 +106,8 @@ wifi:
 
 captive_portal:
 
-dashboard_import:
-  package_import_url: github://athom-tech/athom-configs/athom-smart-plug-v2.yaml
+#dashboard_import:
+#  package_import_url: github://athom-tech/athom-configs/athom-smart-plug-v2.yaml
 
 # Dentra Components - Adds 'Platform - Energy Statistics'
 # https://github.com/dentra/esphome-components/tree/master/components/energy_statistics
